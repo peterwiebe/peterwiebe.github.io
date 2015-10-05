@@ -36,7 +36,7 @@ p {
 	/*position: absolute;
 	top: 50%;
 	transform: translateY(-50%);*/
-}	
+}
 
 #title {
 	position: fixed;
@@ -56,4 +56,11 @@ p {
 	position: relative;
 	float: right;
 	width: 35%;
+}
+
+#third-post {
+	position: relative;
+	float: left;
+	width: 35%;
+	margin-top: 1.5em;
 }

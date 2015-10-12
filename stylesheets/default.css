@@ -13,6 +13,11 @@ body {
 	margin: 0;
 }
 
+code {
+	background: #303030;
+	color: #7fffd4;
+}
+
 ul {
 	text-align: right;
 	margin: 0;
@@ -105,4 +110,43 @@ footer {
 	-webkit-transform: rotate(-14deg)  skew(-10deg);
 	-moz-transform: rotate(-14deg)  skew(-10deg);
 	transform: rotate(-14deg)  skew(-10deg);
+}
+
+#contact {
+	margin-left: 1.5em;
+	padding: 0.5em;
+	background-color: rgba(0,0,0,0.45);
+	display: inline-block;
+
+}
+
+#linkedin, #github, #gplus, #twitter {
+  background-image: url(../imgs/icons.jpg);
+  background-repeat: no-repeat;
+  float: left;
+  margin: 0.2em;
+}
+
+#twitter {
+	height: 66px;
+	width: 66px;
+	background-position: -902px -161px;
+}
+
+#gplus {
+	height: 66px;
+	width: 66px;
+	background-position: -14px -457px;
+}
+
+#github {
+	height: 66px;
+	width: 66px;
+	background-position: -14px -87px;
+}
+
+#linkedin {
+	height: 66px;
+	width: 66px;
+	background-position: -754px -161px;
 }

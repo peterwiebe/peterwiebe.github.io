@@ -64,3 +64,10 @@ p {
 	width: 35%;
 	margin-top: 1.5em;
 }
+
+#fourth-post {
+	position: relative;
+	float: right;
+	width: 45%;
+	margin-top: 1.5em;
+}

@@ -121,10 +121,10 @@ footer {
 }
 
 #linkedin, #github, #gplus, #twitter {
-  background-image: url(../imgs/icons.jpg);
-  background-repeat: no-repeat;
-  float: left;
-  margin: 0.2em;
+	background-image: url(../imgs/icons.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	margin: 0.2em;
 }
 
 #twitter {
@@ -149,4 +149,10 @@ footer {
 	height: 66px;
 	width: 66px;
 	background-position: -754px -161px;
+}
+
+#backg {
+	background-color: rgba(0,0,0,0.75);
+	margin: 15px 10px 10px 15px;
+	padding: 10px;
 }

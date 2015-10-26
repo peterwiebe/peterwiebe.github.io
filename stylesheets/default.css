@@ -13,10 +13,10 @@ body {
 	margin: 0;
 }
 
-code {
+/*code {
 	background: #303030;
 	color: #7fffd4;
-}
+}*/
 
 ul {
 	text-align: right;
@@ -35,6 +35,10 @@ ul li {
 
 a {
 	text-decoration: none;
+}
+
+section {
+	clear: both;
 }
 
 a:link {
@@ -72,6 +76,11 @@ footer {
 	margin-bottom: 2em;
 	margin-right: 1em;
 	height: 15%;
+	overflow: hidden;
+}
+
+.code {
+	width: 40%;
 	overflow: hidden;
 }
 
@@ -193,3 +202,4 @@ footer {
 #top {
 	margin-right: 1.5em;
 }
+

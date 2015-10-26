@@ -56,6 +56,25 @@ footer {
 	width: 100%;
 }
 
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.project {
+	min-height: 35px;
+	width: 40%;
+	border: 1px solid #eee;
+	padding: 10px;
+	margin-bottom: 2em;
+	margin-right: 1em;
+	height: 15%;
+	overflow: hidden;
+}
+
 #main-wrapper {
 	display: flex;
 	flex-flow: row wrap;
@@ -155,4 +174,22 @@ footer {
 	background-color: rgba(0,0,0,0.75);
 	margin: 15px 10px 10px 15px;
 	padding: 10px;
+}
+
+#MainWrapper {
+	background-color: rgba(0,0,0,0.75);
+	position: fixed;
+	width: 96%;
+	height: 88%;
+	margin: 2% 1% 10% 1%;
+	padding: 10px;
+}
+
+#title {
+	width: 5%;
+	float: left;
+}
+
+#top {
+	margin-right: 1.5em;
 }

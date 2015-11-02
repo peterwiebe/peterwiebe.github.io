@@ -41,6 +41,10 @@ section {
 	clear: both;
 }
 
+pre {
+	clear: both;
+}
+
 a:link {
 	color: #fff;
 }
@@ -187,9 +191,9 @@ footer {
 
 #MainWrapper {
 	background-color: rgba(0,0,0,0.75);
-	position: fixed;
+	/*position: fixed;*/
 	width: 96%;
-	height: 88%;
+	/*height: 88%;*/
 	margin: 2% 1% 10% 1%;
 	padding: 10px;
 }

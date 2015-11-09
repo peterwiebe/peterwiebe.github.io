@@ -1,31 +1,23 @@
-<!DOCTYPE html>
+---
+layout: default
+---
 
-<html>
-<head>
-	<link rel="stylesheet" type="text/css" href="stylesheets/default.css">
-	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-	<title>Peter Wiebe</title>
-</head>
-<body>
-	<div id="main-wrapper">
-		<div id="intro">
-			<span id="line-one">Hi,</span>
-			<br><br><span id="line-two">my name is</span>
-			<br><br><span id="line-thr">Peter Wiebe</span>
-		</div>
-		<div id="middle"></div>
-		<div id="quote">Adventurer, maker, risk taker, gardener, firm believer in needing to put yourself in the position to get lucky.</div>
+<div class="home">
 
-	</div>
-	<footer>
-		<ul>
-			<li><a href="#">home</a></li>
-			<li><a href="blog/index.html">musings</a></li>
-			<li><a href="#">projects</a></li>
-			<li><a href="#">recommends</a></li>
-			<li><a href="about.html">background</a></li>
-			<li><a href="contact.html">reach me</a></li>
-		</ul>
-	</footer>
-</body>
-</html>
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
